@@ -1,0 +1,17 @@
+/*
+need to read about enums before working on the scriptaq
+*/
+class Freshjuice
+{
+	enum freshJuiceSize{SMALL, MEDIUM,LARGE}
+	freshJuiceSize size;
+}
+public class enumJava
+{
+	public static void main(String a[])
+	{
+		Freshjuice juice =new Freshjuice();
+		juice.size = Freshjuice.freshJuiceSize.MEDIUM;
+		System.out.println("Size: "+juice.size);
+	}
+}
