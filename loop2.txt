@@ -1,0 +1,13 @@
+public class dowhileloop
+{
+	public static void main(String a[])
+	{
+		int x=20;
+		do
+		{
+			System.out.print("x: "+x);
+			x++;
+			System.out.println();
+		}while(x<20);
+	}
+}
